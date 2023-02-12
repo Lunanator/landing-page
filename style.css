@@ -1,1 +1,25 @@
+.header,
+.hero {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+}
 
+.hero-main {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
