@@ -1,24 +1,18 @@
 body {
     margin: 0px;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Header and Hero */
 
-.header,
-.hero {
+.header {
     background-color: #1f2937;
     color: #f9faf8;
     display: flex;
-}
-
-.hero-main {
-    font-size: 48px;
-    font-weight: 900;
-}
-
-.hero-secondary {
-    font-size: 18px;
-    color: #e5e7eb;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
 }
 
 ul {
@@ -27,9 +21,70 @@ ul {
 }
 
 a {
+    padding: 0px 10px;
     text-decoration: none;
 }
 
+a:visited {
+    color: #e5e7eb;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-container {
+    display: flex;
+    margin: 64px 128px;
+    align-items: center;
+    gap: 32px;
+}
+
+.hero-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.img-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    background: gray;
+    width: 100%;
+    color: #f9faf8;
+}
+
+button {
+    background: #3882f6;
+    color: #e5e7eb;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 32px;
+}
 
 
 /* Information */
@@ -67,7 +122,8 @@ a {
     background: #e5e7eb;
     font-style: italic;
     font-size: 36px;
-    color: #1f2937;    
+    color: #1f2937;
+    margin: 0px;      
 }
 
 /* Call to action */
@@ -77,8 +133,20 @@ a {
     justify-content: center;
     align-items: center;
     background: #3882f6;
-    color: #e5e7eb;
+    padding: 16px 32px;
+    margin: 32px 64px;
+    gap: 32px;
 } 
+
+.call-to-action-header {
+    font-size: 24px;
+    font-weight: 700;
+    color: #f9faf8;
+}
+
+.call-to-action-subtext {
+    color: #e5e7eb;
+}
 
 /* Footer */
 
