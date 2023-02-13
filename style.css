@@ -70,6 +70,16 @@ a {
     color: #1f2937;    
 }
 
+/* Call to action */
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3882f6;
+    color: #e5e7eb;
+} 
+
 /* Footer */
 
 .footer {
