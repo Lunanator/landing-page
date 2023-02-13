@@ -68,11 +68,11 @@ a:visited {
 }
 
 .img-box {
+    align-self: stretch;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 200px;
-    height: 100px;
     background: gray;
     width: 100%;
     color: #f9faf8;
@@ -92,7 +92,7 @@ button {
 .title {
     font-size: 36px;
     font-weight: 900;
-    margin-bottom: 32px;
+    margin: 16px;
     text-align: center;
 }
 
@@ -106,6 +106,7 @@ button {
 .information-container {
     display: flex;
     text-align: center;
+    margin: 32px;
 }
 
 .info {
@@ -120,10 +121,21 @@ button {
 
 .blockquote {
     background: #e5e7eb;
+    margin: 0px;
+    padding: 64px 256px;      
+}
+
+.blockquote-text {
     font-style: italic;
     font-size: 36px;
     color: #1f2937;
-    margin: 0px;      
+}
+
+.blockquote-text-credit {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: right;
 }
 
 /* Call to action */
@@ -155,5 +167,6 @@ button {
     align-items: center;
     justify-content: center;
     height: 72px;
-    background: #eee;
+    background: #1f2937;
+    color: #f9faf8;
   }
